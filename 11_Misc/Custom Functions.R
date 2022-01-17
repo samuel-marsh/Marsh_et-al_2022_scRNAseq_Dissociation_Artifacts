@@ -1,3 +1,10 @@
+# Some custom plotting and analysis functions from scCustomize Package
+# Samuel Marsh (2021). scCustomize: An R package for custom visualization & analyses of single cell sequencing. https://doi.org/10.5281/zenodo.5706430
+# Installation
+devtools::install_github(repo = "samuel-marsh/scCustomize")
+remotes::install_github(repo = "samuel-marsh/scCustomize")
+
+
 # clusterLouvainJaccard function
     # Now deprecated in LIGER
 
