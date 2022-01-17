@@ -7,7 +7,7 @@ Samuel E. Marsh<sup>1,\* </sup>, Alec J. Walker, Tushar Kamath<sup>1</sup>, Lass
 <sup><sup>2</sup>Assisted analysis</sup>  
 <sup><sup>\*</sup>Analysis lead (contact: samuel.marsh@childrens.harvard.edu)</sup>  
 
-A copy of the code/repository which contained analyses from preprint can be downloaded [here].(https://github.com/samuel-marsh/Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts/tree/master/12_Code%20for%20Preprint%20Analyses)
+<sup><sup>A copy of the code/repository which contained analyses from preprint can be downloaded [here].(https://github.com/samuel-marsh/Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts/tree/master/12_Code%20for%20Preprint%20Analyses)</sup> 
 
 ## Code
 Included is the code necessary to replicate the Seurat or LIGER (or both) objects used for analysis and plotting.
