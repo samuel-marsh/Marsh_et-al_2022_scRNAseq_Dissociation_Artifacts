@@ -1,0 +1,120 @@
+library(tidyverse)
+library(Seurat)
+library(patchwork)
+library(marsh.utils)
+library(viridis)
+library(liger)
+library(beepr)
+library(scCustomize)
+
+# Load V3 All Datasets ----------------------------------------------------
+marsh_seurat3 <- read_rds("RDS_SeuratV3/rename_meta_final/marsh_seuratv3_RENAMED.RDS")
+zhou_seurat3 <- read_rds("RDS_SeuratV3/rename_meta_final/zhou_seuratv3_RENAMED.RDS")
+morabito_seurat3 <- read_rds("RDS_SeuratV3/rename_meta_final/morabito_seuratv3_RENAMED.RDS")
+leng_ec_seurat3 <- read_rds("RDS_SeuratV3/rename_meta_final/leng_ec_seuratv3_RENAMED.RDS")
+leng_sfg_seurat3 <- read_rds("RDS_SeuratV3/rename_meta_final/leng_sfg_seuratv3_RENAMED.RDS")
+
+# Marsh -------------------------------------------------
+QC_Plots_Genes(marsh_seurat3, pt.size = 0)
+
+marsh_excit <- subset(x = marsh_seurat3, idents = "Excitatory")
+marsh_inhib <- subset(x = marsh_seurat3, idents = "Inhibitory")
+marsh_oligo <- subset(x = marsh_seurat3, idents = "Oligodendrocyte")
+marsh_astro <- subset(x = marsh_seurat3, idents = "Astrocyte")
+marsh_opc <- subset(x = marsh_seurat3, idents = "OPC")
+marsh_endo <- subset(x = marsh_seurat3, idents = "Endothelial")
+marsh_fibro <- subset(x = marsh_seurat3, idents = "Fibroblast")
+marsh_micro <- subset(x = marsh_seurat3, idents = "Microglia")
+marsh_pbmc <- subset(x = marsh_seurat3, idents = "PBMC")
+
+write_rds(marsh_excit, "RDS_SeuratV3/cell_type_subset/marsh_excit_seurat.RDS")
+write_rds(marsh_inhib, "RDS_SeuratV3/cell_type_subset/marsh_inhib_seurat.RDS")
+write_rds(marsh_oligo, "RDS_SeuratV3/cell_type_subset/marsh_oligo_seurat.RDS")
+write_rds(marsh_astro, "RDS_SeuratV3/cell_type_subset/marsh_astro_seurat.RDS")
+write_rds(marsh_opc, "RDS_SeuratV3/cell_type_subset/marsh_opc_seurat.RDS")
+write_rds(marsh_endo, "RDS_SeuratV3/cell_type_subset/marsh_endo_seurat.RDS")
+write_rds(marsh_fibro, "RDS_SeuratV3/cell_type_subset/marsh_fibro_seurat.RDS")
+write_rds(marsh_micro, "RDS_SeuratV3/cell_type_subset/marsh_micro_seurat.RDS")
+write_rds(marsh_pbmc, "RDS_SeuratV3/cell_type_subset/marsh_pbmc_seurat.RDS")
+
+beep(sound = 2)
+
+# zhou -------------------------------------------------
+QC_Plots_Genes(zhou_seurat3, pt.size = 0)
+zhou_excit <- subset(x = zhou_seurat3, idents = "Excitatory")
+zhou_inhib <- subset(x = zhou_seurat3, idents = "Inhibitory")
+zhou_oligo <- subset(x = zhou_seurat3, idents = "Oligodendrocyte")
+zhou_astro <- subset(x = zhou_seurat3, idents = "Astrocyte")
+zhou_opc <- subset(x = zhou_seurat3, idents = "OPC")
+zhou_endo_peri_fibro <- subset(x = zhou_seurat3, idents = "Endo/Fibro/Peri")
+zhou_micro <- subset(x = zhou_seurat3, idents = "Microglia")
+
+write_rds(zhou_excit, "RDS_SeuratV3/cell_type_subset/zhou_excit_seurat.RDS")
+write_rds(zhou_inhib, "RDS_SeuratV3/cell_type_subset/zhou_inhib_seurat.RDS")
+write_rds(zhou_oligo, "RDS_SeuratV3/cell_type_subset/zhou_oligo_seurat.RDS")
+write_rds(zhou_astro, "RDS_SeuratV3/cell_type_subset/zhou_astro_seurat.RDS")
+write_rds(zhou_opc, "RDS_SeuratV3/cell_type_subset/zhou_opc_seurat.RDS")
+write_rds(zhou_endo_peri_fibro, "RDS_SeuratV3/cell_type_subset/zhou_endo_fibro_peri_seurat.RDS")
+write_rds(zhou_micro, "RDS_SeuratV3/cell_type_subset/zhou_micro_seurat.RDS")
+
+beep(sound = 2)
+
+# morabito -------------------------------------------------
+QC_Plots_Genes(morabito_seurat3, pt.size = 0)
+morabito_excit <- subset(x = morabito_seurat3, idents = "Excitatory")
+morabito_inhib <- subset(x = morabito_seurat3, idents = "Inhibitory")
+morabito_oligo <- subset(x = morabito_seurat3, idents = "Oligodendrocyte")
+morabito_astro <- subset(x = morabito_seurat3, idents = "Astrocyte")
+morabito_opc <- subset(x = morabito_seurat3, idents = "OPC")
+morabito_endo_fibro <- subset(x = morabito_seurat3, idents = "Endo/Fibro")
+morabito_micro <- subset(x = morabito_seurat3, idents = "Microglia")
+
+write_rds(morabito_excit, "RDS_SeuratV3/cell_type_subset/morabito_excit_seurat.RDS")
+write_rds(morabito_inhib, "RDS_SeuratV3/cell_type_subset/morabito_inhib_seurat.RDS")
+write_rds(morabito_oligo, "RDS_SeuratV3/cell_type_subset/morabito_oligo_seurat.RDS")
+write_rds(morabito_astro, "RDS_SeuratV3/cell_type_subset/morabito_astro_seurat.RDS")
+write_rds(morabito_opc, "RDS_SeuratV3/cell_type_subset/morabito_opc_seurat.RDS")
+write_rds(morabito_endo_fibro, "RDS_SeuratV3/cell_type_subset/morabito_endo_fibro_seurat.RDS")
+write_rds(morabito_micro, "RDS_SeuratV3/cell_type_subset/morabito_micro_seurat.RDS")
+
+beep(sound = 2)
+
+# leng_ec -------------------------------------------------
+QC_Plots_Genes(leng_ec_seurat3, pt.size = 0)
+leng_ec_excit <- subset(x = leng_ec_seurat3, idents = "Excitatory")
+leng_ec_inhib <- subset(x = leng_ec_seurat3, idents = "Inhibitory")
+leng_ec_oligo <- subset(x = leng_ec_seurat3, idents = "Oligodendrocyte")
+leng_ec_astro <- subset(x = leng_ec_seurat3, idents = "Astrocyte")
+leng_ec_opc <- subset(x = leng_ec_seurat3, idents = "OPC")
+leng_ec_endo_fibro_peri <- subset(x = leng_ec_seurat3, idents = "Endo/Fibro/Peri")
+leng_ec_micro <- subset(x = leng_ec_seurat3, idents = "Microglia")
+
+write_rds(leng_ec_excit, "RDS_SeuratV3/cell_type_subset/leng_ec_excit_seurat.RDS")
+write_rds(leng_ec_inhib, "RDS_SeuratV3/cell_type_subset/leng_ec_inhib_seurat.RDS")
+write_rds(leng_ec_oligo, "RDS_SeuratV3/cell_type_subset/leng_ec_oligo_seurat.RDS")
+write_rds(leng_ec_astro, "RDS_SeuratV3/cell_type_subset/leng_ec_astro_seurat.RDS")
+write_rds(leng_ec_opc, "RDS_SeuratV3/cell_type_subset/leng_ec_opc_seurat.RDS")
+write_rds(leng_ec_endo_fibro_peri, "RDS_SeuratV3/cell_type_subset/leng_ec_endo_fibro_peri_seurat.RDS")
+write_rds(leng_ec_micro, "RDS_SeuratV3/cell_type_subset/leng_ec_micro_seurat.RDS")
+
+beep(sound = 2)
+
+# leng_sfg -------------------------------------------------
+QC_Plots_Genes(leng_sfg_seurat3, pt.size = 0)
+leng_sfg_excit <- subset(x = leng_sfg_seurat3, idents = "Excitatory")
+leng_sfg_inhib <- subset(x = leng_sfg_seurat3, idents = "Inhibitory")
+leng_sfg_oligo <- subset(x = leng_sfg_seurat3, idents = "Oligodendrocyte")
+leng_sfg_astro <- subset(x = leng_sfg_seurat3, idents = "Astrocyte")
+leng_sfg_opc <- subset(x = leng_sfg_seurat3, idents = "OPC")
+leng_sfg_endo <- subset(x = leng_sfg_seurat3, idents = "Endothelial")
+leng_sfg_micro <- subset(x = leng_sfg_seurat3, idents = "Microglia")
+
+write_rds(leng_sfg_excit, "RDS_SeuratV3/cell_type_subset/leng_sfg_excit_seurat.RDS")
+write_rds(leng_sfg_inhib, "RDS_SeuratV3/cell_type_subset/leng_sfg_inhib_seurat.RDS")
+write_rds(leng_sfg_oligo, "RDS_SeuratV3/cell_type_subset/leng_sfg_oligo_seurat.RDS")
+write_rds(leng_sfg_astro, "RDS_SeuratV3/cell_type_subset/leng_sfg_astro_seurat.RDS")
+write_rds(leng_sfg_opc, "RDS_SeuratV3/cell_type_subset/leng_sfg_opc_seurat.RDS")
+write_rds(leng_sfg_endo, "RDS_SeuratV3/cell_type_subset/leng_sfg_endo_seurat.RDS")
+write_rds(leng_sfg_micro, "RDS_SeuratV3/cell_type_subset/leng_sfg_micro_seurat.RDS")
+
+beep(sound = 2)
