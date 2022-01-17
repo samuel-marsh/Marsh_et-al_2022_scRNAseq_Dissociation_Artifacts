@@ -1,7 +1,7 @@
-# Marsh_et-al_2020_scRNAseq_Dissociation_Artifacts  
+# Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts  
 #### Code to reproduce analysis objects for the data contained in:  
-[**Single Cell Sequencing Reveals Glial Specific Responses to Tissue Processing & Enzymatic Dissociation in Mice and Humans**](LINK_TBD)  
-Samuel E. Marsh<sup>1,\* </sup>, Alec J. Walker, Tushar Kamath<sup>1</sup>, Lasse Dissing-Olesen, Timothy R. Hammond<sup>2</sup>, T. Yvanka de Soysa, Adam M.H. Young, Sarah Murphy, Abdulraouf Abdulraouf, Naeem Nadaf, Alicia C. Walker, Connor Dufort, Liliana E. Lucca, Velina Kozareva<sup>2</sup>, Charles Vanderburg, Soyon Hong, Harry Bulstrode, Peter J. Hutchinson, Daniel J. Gaffney, David A. Hafler, Robin J.M. Franklin, Evan Z. Macosko, & Beth Stevens
+[**Dissection of artifactual and confounding glial signatures by single cell sequencing of mouse and human brain**](LINK_TBD)  
+Samuel E. Marsh<sup>1,\* </sup>, Alec J. Walker, Tushar Kamath<sup>1</sup>, Lasse Dissing-Olesen, Timothy R. Hammond<sup>2</sup>, T. Yvanka de Soysa, Adam M.H. Young, Sarah Murphy, Abdulraouf Abdulraouf, Naeem Nadaf, Connor Dufort, Alicia C. Walker, Liliana E. Lucca, Velina Kozareva<sup>2</sup>, Charles Vanderburg, Soyon Hong, Harry Bulstrode, Peter J. Hutchinson, Daniel J. Gaffney, David A. Hafler, Robin J.M. Franklin, Evan Z. Macosko, & Beth Stevens
 
 <sup><sup>1</sup>Performed analysis</sup>   
 <sup><sup>2</sup>Assisted analysis</sup>  
@@ -35,11 +35,11 @@ The data in this project can be broadly divided into 2 categories (7 sub-project
 | Exp. 1 | Mouse | scRNA-seq (10X 3' V2) | scRNA-seq of microglia with 4 different dissociation protocols | [GSE152183](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152183) |
 | Exp. 2 | Mouse | scRNA-seq (10X 3' V2) | scRNA-seq of all CNS cells with or without inhibitors | [GSE152182](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152182) |
 | Exp. 3 | Mouse | scRNA-seq (10X 3' V2) | scRNA-seq of microglia (tail vein PBS injection) | [GSE152210](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152210)|
-| Exp. 4 | Mouse | scRNA-seq (10X 3' V3.0 & V3.1) | scRNA-seq of microglia w or w/o Inhibitors (10X Version Analysis) | [*in-progress*](LINK_TBD)|
+| Exp. 4 | Mouse | scRNA-seq (10X 3' V3.0 & V3.1) | scRNA-seq of microglia w or w/o Inhibitors (10X Version Analysis) | [*GSE188441*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188441)|
 | |  |  | | |
 | Exp. 5 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of post-mortem brain tissue | [GSE157760](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157760)|
 | Exp. 6 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of surgically resected brain tissue with or without freezing time delay | [*in-progress*](EGAXXXXXXX)|
-| Exp. 7 | Human | scRNA-seq (10X 5' V1) | scRNA-seq| [*in-progress*](LINK_TBD)|
+| Exp. 7 | Human | scRNA-seq (10X 5' V1) | scRNA-seq| [*phs002222.v2.p1*](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002222.v1.p1)|
 
 ### Processed Data
 All proceesed data files represent the output from Cell Ranger `count`.  Files provided are the "*filtered_feature_bc_matrix*" (i.e. only containing the barcodes that Cell Ranger called as cells during preprocessing). Information on Cell Ranger version and Genome/Annotation for each experiment can be found in [SI Table 1 & 2](UPDATE_LINK) as well as individual repository meta data.  
@@ -51,7 +51,7 @@ There are 3 processed data files per library:
   3. GSM\*\_*Sample-Name*_matrix.mtx.gz: expression matrix in sparse format.
 
 ### Raw fastq Files
-All raw data fastq files can be downloaded from SRA linked from NCBI GEO records, or from EGA/dbGAP records.
+All raw data fastq/BAM files can be downloaded from SRA linked from NCBI GEO records, or from EGA/dbGaP records.
 
 ### Literature Reanalysis
 Reanalyzed data from literature is summarized detailed in table below.
