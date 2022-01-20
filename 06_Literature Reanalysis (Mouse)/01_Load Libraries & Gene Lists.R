@@ -1,4 +1,4 @@
-# All literature reanalysis was performed using:
+# All literature reanalysis was performed using (unless otherwise specified):
     # R 3.6.1
     # Seurat 3.1.5
     # tidyverse 1.3.0
