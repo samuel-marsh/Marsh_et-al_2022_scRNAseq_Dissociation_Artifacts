@@ -21,9 +21,11 @@ options(future.globals.maxSize = 5000 * 1024^2)
     # Gene lists available in SI Tables 04
 # Column 3 (Microglia Myeloid Shared Act Score)
 shared_sig <- "Load Microglia Meta Cell Score"
+shared_sig <- list(shared_sig)
 
 # Column 1 (Microglia Identity Score)
 homeostatic_mg <- "Homeostatic microglia gene list"
+homeostatic_mg <- list(homeostatic_mg)
 
 # 2.1 Create gene lists compatible with Mizrak et al dataset
     # Mizrak et al dataset are in form of ensembl ID #s and not external gene names 
