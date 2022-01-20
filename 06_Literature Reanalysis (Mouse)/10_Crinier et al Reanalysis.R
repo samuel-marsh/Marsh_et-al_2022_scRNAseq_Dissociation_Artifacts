@@ -68,7 +68,7 @@ mouse_nk_filtered <- FindClusters(object = mouse_nk_filtered, resolution = 0.4)
 mouse_nk_filtered <- RunUMAP(object = mouse_nk_filtered, dims = 1:19)
 
 # Add exAM module score
-mouse_nk_filtered <- AddModuleScore(object = mouse_nk_filtered, deg_list["shared_sig"], name = "exAM_score")
+mouse_nk_filtered <- AddModuleScore(object = mouse_nk_filtered, features = shared_sig, name = "exAM_score")
 
 # Save Object ---------------------------------------------------------------------------------
 write_rds(mouse_nk_filtered, "Crinier_Mouse_NK_Final.RDS")
