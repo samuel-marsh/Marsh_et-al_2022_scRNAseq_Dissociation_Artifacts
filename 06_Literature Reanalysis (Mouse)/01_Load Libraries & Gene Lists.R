@@ -13,7 +13,7 @@ library(beepr)
 library(scCustomize)
 library(patchwork)
 library(loomR)
-library(future)
+library(future) # Not necessary but speeds but larger dataset analysis
 plan("multiprocess", workers = 4)
 options(future.globals.maxSize = 5000 * 1024^2)
 
