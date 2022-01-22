@@ -1,6 +1,10 @@
 # Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts  
+
+[![license](https://img.shields.io/github/license/samuel-marsh/Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts)](https://github.com/samuel-marsh/Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts/blob/master/LICENSE)
+
+
 #### Code to reproduce analysis objects for the data contained in:  
-### [**Dissection of artifactual and confounding glial signatures by single cell sequencing of mouse and human brain (*Nature Neuroscience*, Vol(issue), pages TBD.)**](LINK_TBD)  
+### [**Dissection of artifactual and confounding glial signatures by single cell sequencing of mouse and human brain (*Nature Neuroscience*, *in press*)**](LINK_TBD)  
 Samuel E. Marsh<sup>1,\* </sup>, Alec J. Walker, Tushar Kamath<sup>1</sup>, Lasse Dissing-Olesen, Timothy R. Hammond<sup>2</sup>, T. Yvanka de Soysa, Adam M.H. Young, Sarah Murphy, Abdulraouf Abdulraouf, Naeem Nadaf, Connor Dufort, Alicia C. Walker, Liliana E. Lucca, Velina Kozareva<sup>2</sup>, Charles Vanderburg, Soyon Hong, Harry Bulstrode, Peter J. Hutchinson, Daniel J. Gaffney, David A. Hafler, Robin J.M. Franklin, Evan Z. Macosko, & Beth Stevens.  
 
 <sup><sup>1</sup>Performed analysis</sup>   
