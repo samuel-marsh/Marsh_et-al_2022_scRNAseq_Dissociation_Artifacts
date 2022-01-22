@@ -38,7 +38,7 @@ Included is the code necessary to replicate the Seurat or LIGER (or both) object
 
 ## Data  
 ### Original Data
-The data in this project can be broadly divided into 2 categories (7 sub-projects).  Please see [SI Table 1 & 2](ADD_NEW_LINK) (SI Table 1: Mouse Experiments 1-4) and (SI Table 2; Human Experiments 4-7 & Human Literature Reanalysis) for breakdown by sample and more information.
+The data in this project can be broadly divided into 2 categories (7 sub-projects).  Please see [SI Table 1 & 2](ADD_NEW_LINK) (SI Table 1: Mouse Experiments 1-4) and (SI Table 2; Human Experiments 4-7 & Human Literature Reanalysis) for breakdown by sample, metadata, and more information.
 
 ***A brief overview with links to the raw data (fastqs) and processed data (Cell Ranger `count` Gene Expression Matrices) see table below***
 | Experiment | Species | Seq Used | Description | Raw/Count Data |
