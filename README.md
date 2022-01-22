@@ -37,7 +37,7 @@ Included is the code necessary to replicate the Seurat or LIGER (or both) object
 
 ## Data  
 ### Original Data
-The data in this project can be broadly divided into 2 categories (7 sub-projects).  Please see [SI Table 1 & 2](ADD_NEW_LINK) (SI Table 1: Mouse Experiments 1-4) and (SI Table 2; Human Experiments 4-7 & Human Literature Reanalysis) for breakdown by sample, metadata, and more information.
+The data in this project can be broadly divided into 2 categories (7 sub-projects).  Please see [SI Table 1 & 2](LINK_TBD) (SI Table 1: Mouse Experiments 1-4) and (SI Table 2; Human Experiments 4-7 & Human Literature Reanalysis) for breakdown by sample, metadata, and more information.
 
 ***A brief overview with links to the raw data (fastqs) and processed data (Cell Ranger `count` Gene Expression Matrices) see table below***
 | Experiment | Species | Seq Used | Description | Raw/Count Data |
@@ -52,7 +52,7 @@ The data in this project can be broadly divided into 2 categories (7 sub-project
 | Exp. 7 | Human | scRNA-seq (10X 5' V1) | scRNA-seq| [*phs002222.v2.p1*](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002222.v1.p1)|
 
 ### Processed Data
-All proceesed data files represent the output from Cell Ranger `count`.  Files provided are the "*filtered_feature_bc_matrix*" (i.e. only containing the barcodes that Cell Ranger called as cells during preprocessing). Information on Cell Ranger version and Genome/Annotation for each experiment can be found in [SI Table 1 & 2](UPDATE_LINK) as well as individual repository meta data.  
+All proceesed data files represent the output from Cell Ranger `count`.  Files provided are the "*filtered_feature_bc_matrix*" (i.e. only containing the barcodes that Cell Ranger called as cells during preprocessing). Information on Cell Ranger version and Genome/Annotation for each experiment can be found in [SI Table 1 & 2](LINK_TBD) as well as individual repository meta data.  
 
 **Experiments 1-4, 5 (NCBI GEO)**  
 There are 3 processed data files per library:
@@ -88,7 +88,7 @@ Reanalyzed data from literature is summarized detailed in table below.
 
 ### Human Data Reanalysis Meta Data
 Meta data for human data was assembled from published SI Tables, public data on synapse, or restricted access data on synapse
-  - Compiled publicly available meta data variables for each human dataset can be found in [SI Table 2](UPDATE LINK).
+  - Compiled publicly available meta data variables for each human dataset can be found in [SI Table 2](LINK_TBD).
   - "DUC" in the table indicates data available from synapse following submission and approval of Data Use Certificate.
 
 ## Acknowledgements:
