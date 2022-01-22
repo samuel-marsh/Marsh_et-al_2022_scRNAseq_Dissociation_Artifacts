@@ -1,0 +1,18 @@
+cluster,cell_type,basic_type,notes
+0,T Cell_CD4,T Cell,CD4 TCM
+1,T Cell_CD4,T Cell,CD4 Na•ve
+2,NK Cell,NK Cell,
+3,Monocyte_CD14,Monocyte,
+4,B Cell,B Cell,
+5,T Cell_CD8,T Cell,
+6,T Cell_CD8,T Cell,
+7,T Cell_MAIT,T Cell,
+8,B Cell,B Cell,
+9,T Cell_other,T Cell,
+10,Monocyte_CD16,Monocyte,
+11,NK Cell_CD56Br,NK Cell,
+12,T Cell_gdT,T Cell,
+13,Monocyte_CD14_exAM,Monocyte,
+14,DC,DC,
+15,HSPC,HSPC,
+16,Platlet,Platlet,

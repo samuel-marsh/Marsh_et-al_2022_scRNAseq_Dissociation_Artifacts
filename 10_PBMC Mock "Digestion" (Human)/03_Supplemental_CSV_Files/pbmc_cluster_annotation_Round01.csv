@@ -1,0 +1,23 @@
+cluster,cell_type,sub_type,notes
+0,T Cell,CD4,
+1,T Cell,CD4,
+2,NK,,
+3,Mono,CD14,
+4,B Cell,,
+5,T Cell,CD8,
+6,T Cell,CD8,
+7,B Cell,,
+8,T Cell,MAIT,
+9,T Cell,CD4/CD8,
+10,Mono,CD16,
+11,T Cell,CD4,
+12,NK,,
+13,Mono,CD14,exAM?
+14,T Cell,gdT,
+15,Doublet,,
+16,DC,CD14,
+17,Doublet,,
+18,Doublet,CD14/T Cell/B Cell,
+19,platlet,mono,maybe some mono mixed in
+20,HSPC,,
+21,Doublet,B Cell/DC,
