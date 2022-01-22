@@ -1,6 +1,8 @@
 # Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts  
 
 [![license](https://img.shields.io/github/license/samuel-marsh/Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts)](https://github.com/samuel-marsh/Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts/blob/master/LICENSE)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5893543.svg)](https://doi.org/10.5281/zenodo.5893543)
+
 
 #### Code to reproduce analysis objects for the data contained in:  
 ### [**Dissection of artifactual and confounding glial signatures by single cell sequencing of mouse and human brain (*Nature Neuroscience*, *in press*)**](LINK_TBD)  
