@@ -5,7 +5,7 @@ Samuel E. Marsh<sup>1,\* </sup>, Alec J. Walker, Tushar Kamath<sup>1</sup>, Lass
 
 <sup><sup>1</sup>Performed analysis</sup>   
 <sup><sup>2</sup>Assisted analysis</sup>  
-<sup><sup>\*</sup>Analysis lead (contact: [samuel.marsh@childrens.harvard.edu](samuel.marsh@childrens.harvard.edu))</sup>  
+<sup><sup>\*</sup>Analysis lead (contact: samuel.marsh@childrens.harvard.edu)</sup>  
 
 **\*NOTE\* If you do not have institutional access to the above article please use the request link in bibliography to submit request for copy from corresponding authors: [samuel-marsh.science](https://samuel-marsh.science/)**
 
