@@ -9,8 +9,8 @@ Samuel E. Marsh<sup>1,\* </sup>, Alec J. Walker, Tushar Kamath<sup>1</sup>, Lass
 
 **\*NOTE\* If you do not have institutional access to the above article please use the request link in bibliography to submit request for copy from corresponding authors: [samuel-marsh.science](https://samuel-marsh.science/)**
 
-
-***An earlier version of this work appeared in preprint form on bioRxiv.  A link to preprint and zip folder of the GitHub repository from the preprint can be found below:***  
+**bioRxiv Preprint**
+*An earlier version of this work appeared in preprint form on bioRxiv.  A link to preprint and zip folder of the GitHub repository from the preprint can be found below:*  
 Link to the earlier preprint version of this manuscript [here](https://doi.org/10.1101/2020.12.03.408542).  
 A copy of the code/prior repository which contained analyses from preprint can be downloaded in zip form [here](https://github.com/samuel-marsh/Marsh_et-al_2022_scRNAseq_Dissociation_Artifacts/tree/master/12_Code%20for%20Preprint%20Analyses).
 
