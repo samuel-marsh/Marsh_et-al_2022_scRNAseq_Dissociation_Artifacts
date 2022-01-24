@@ -36,6 +36,10 @@ Included is the code necessary to replicate the Seurat or LIGER (or both) object
     - Seurat V2 was used during LIGER analysis workflow to accommodate use of now deprecated [`clusterLouvainJaccard` function](https://github.com/samuel-marsh/Marsh_et-al_2020_scRNAseq_Dissociation_Artifacts/tree/master/11_Misc) which relied on Seurat V2 object structure.
     - Conversion between Seurat and LIGER objects was performed using built in LIGER functions `seuratToLiger` and `ligerToSeurat`.
 
+- [scCustomize R package](https://github.com/samuel-marsh/scCustomize) was used in a pre-release development form during analysis.  
+  - Some of the function names may be different in this repo compared to their public release form.  
+  - List of functions (and tutorials) for scCustomize can be found at website [here](https://samuel-marsh.github.io/scCustomize).  
+
 ## Data  
 ### Original Data
 The data in this project can be broadly divided into 2 categories (7 sub-projects).  Please see [SI Table 1 & 2](LINK_TBD) (SI Table 1: Mouse Experiments 1-4) and (SI Table 2; Human Experiments 4-7 & Human Literature Reanalysis) for breakdown by sample, metadata, and more information.
