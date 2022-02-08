@@ -53,7 +53,7 @@ The data in this project can be broadly divided into 2 categories (7 sub-project
 | Exp. 4 | Mouse | scRNA-seq (10X 3' V3.0 & V3.1) | scRNA-seq of microglia w or w/o Inhibitors (10X Version Analysis) | [*GSE188441*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188441)|
 | |  |  | | |
 | Exp. 5 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of post-mortem brain tissue | [GSE157760](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157760)|
-| Exp. 6 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of surgically resected brain tissue with or without freezing time delay | [*in-progress*](EGAXXXXXXX)|
+| Exp. 6 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of surgically resected brain tissue with or without freezing time delay | [*EGAD00001008541*](https://ega-archive.org/datasets/EGAD00001008541)|
 | Exp. 7 | Human | scRNA-seq (10X 5' V1) | scRNA-seq| [*phs002222.v2.p1*](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002222.v1.p1)|
 
 ### Processed Data
