@@ -50,11 +50,11 @@ The data in this project can be broadly divided into 2 categories (7 sub-project
 | Exp. 1 | Mouse | scRNA-seq (10X 3' V2) | scRNA-seq of microglia with 4 different dissociation protocols | [GSE152183](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152183) |
 | Exp. 2 | Mouse | scRNA-seq (10X 3' V2) | scRNA-seq of all CNS cells with or without inhibitors | [GSE152182](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152182) |
 | Exp. 3 | Mouse | scRNA-seq (10X 3' V2) | scRNA-seq of microglia (tail vein PBS injection) | [GSE152210](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152210)|
-| Exp. 4 | Mouse | scRNA-seq (10X 3' V3.0 & V3.1) | scRNA-seq of microglia w or w/o Inhibitors (10X Version Analysis) | [*GSE188441*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188441)|
+| Exp. 4 | Mouse | scRNA-seq (10X 3' V3.0 & V3.1) | scRNA-seq of microglia w or w/o Inhibitors (10X Version Analysis) | [GSE188441](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188441)|
 | |  |  | | |
 | Exp. 5 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of post-mortem brain tissue | [GSE157760](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157760)|
-| Exp. 6 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of surgically resected brain tissue with or without freezing time delay | [*EGAD00001008541*](https://ega-archive.org/datasets/EGAD00001008541)|
-| Exp. 7 | Human | scRNA-seq (10X 5' V1) | scRNA-seq| [*phs002222.v2.p1*](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002222.v1.p1)|
+| Exp. 6 | Human | snRNA-seq (10X 3' V3.0) | snRNA-seq of surgically resected brain tissue with or without freezing time delay | [EGAD00001008541](https://ega-archive.org/datasets/EGAD00001008541)|
+| Exp. 7 | Human | scRNA-seq (10X 5' V1) | scRNA-seq| [phs002222.v2.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002222.v1.p1)|
 
 ### Processed Data
 All proceesed data files represent the output from Cell Ranger `count`.  Files provided are the "*filtered_feature_bc_matrix*" (i.e. only containing the barcodes that Cell Ranger called as cells during preprocessing). Information on Cell Ranger version and Genome/Annotation for each experiment can be found in [SI Table 1 & 2](LINK_TBD) as well as individual repository meta data.  
