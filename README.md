@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5893543.svg)](https://doi.org/10.5281/zenodo.5893543)  
 
 #### Code to reproduce analysis objects for the data contained in:  
-### [**Dissection of artifactual and confounding glial signatures by single cell sequencing of mouse and human brain (*Nature Neuroscience*, *in press*)**](LINK_TBD)  
+### [**Dissection of artifactual and confounding glial signatures by single cell sequencing of mouse and human brain (*Nature Neuroscience*, *in press*)**](https://doi.org/10.1038/s41593-022-01022-8)  
 Samuel E. Marsh<sup>1,\* </sup>, Alec J. Walker, Tushar Kamath<sup>1</sup>, Lasse Dissing-Olesen, Timothy R. Hammond<sup>2</sup>, T. Yvanka de Soysa, Adam M.H. Young, Sarah Murphy, Abdulraouf Abdulraouf, Naeem Nadaf, Connor Dufort, Alicia C. Walker, Liliana E. Lucca, Velina Kozareva<sup>2</sup>, Charles Vanderburg, Soyon Hong, Harry Bulstrode, Peter J. Hutchinson, Daniel J. Gaffney, David A. Hafler, Robin J.M. Franklin, Evan Z. Macosko, & Beth Stevens.  
 
 <sup><sup>1</sup>Performed analysis</sup>   
@@ -42,7 +42,7 @@ Included is the code necessary to replicate the Seurat or LIGER (or both) object
 
 ## Data  
 ### Original Data
-The data in this project can be broadly divided into 2 categories (7 sub-projects).  Please see [SI Table 1 & 2](LINK_TBD) (SI Table 1: Mouse Experiments 1-4) and (SI Table 2; Human Experiments 4-7 & Human Literature Reanalysis) for breakdown by sample, metadata, and more information.
+The data in this project can be broadly divided into 2 categories (7 sub-projects).  Please see [SI Table 1 & 2](https://www.nature.com/articles/s41593-022-01022-8#Sec53) (SI Table 1: Mouse Experiments 1-4) and (SI Table 2; Human Experiments 4-7 & Human Literature Reanalysis) for breakdown by sample, metadata, and more information.
 
 ***A brief overview with links to the raw data (fastqs) and processed data (Cell Ranger `count` Gene Expression Matrices) see table below***
 | Experiment | Species | Seq Used | Description | Raw/Count Data |
@@ -57,7 +57,7 @@ The data in this project can be broadly divided into 2 categories (7 sub-project
 | Exp. 7 | Human | scRNA-seq (10X 5' V1) | scRNA-seq| [phs002222.v2.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002222.v1.p1)|
 
 ### Processed Data
-All proceesed data files represent the output from Cell Ranger `count`.  Files provided are the "*filtered_feature_bc_matrix*" (i.e. only containing the barcodes that Cell Ranger called as cells during preprocessing). Information on Cell Ranger version and Genome/Annotation for each experiment can be found in [SI Table 1 & 2](LINK_TBD) as well as individual repository meta data.  
+All proceesed data files represent the output from Cell Ranger `count`.  Files provided are the "*filtered_feature_bc_matrix*" (i.e. only containing the barcodes that Cell Ranger called as cells during preprocessing). Information on Cell Ranger version and Genome/Annotation for each experiment can be found in [SI Table 1 & 2](https://www.nature.com/articles/s41593-022-01022-8#Sec53) as well as individual repository meta data.  
 
 **Experiments 1-4, 5 (NCBI GEO)**  
 There are 3 processed data files per library:
@@ -93,7 +93,7 @@ Reanalyzed data from literature is summarized detailed in table below.
 
 ### Human Data Reanalysis Meta Data
 Meta data for human data was assembled from published SI Tables, public data on synapse, or restricted access data on synapse
-  - Compiled publicly available meta data variables for each human dataset can be found in [SI Table 2](LINK_TBD).
+  - Compiled publicly available meta data variables for each human dataset can be found in [SI Table 2](https://www.nature.com/articles/s41593-022-01022-8#Sec53).
   - "DUC" in the table indicates data available from synapse following submission and approval of Data Use Certificate.
 
 ## Acknowledgements:
